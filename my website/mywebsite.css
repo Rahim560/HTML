@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: aliceblue;
+    background-color: yellow;
+}
+.navbar{
+    background-color: aqua;
+    width: 100%;
+    height: 50px;
+    border: 1px solid green;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    float: left;
+}
+.nav li {
+    /* display: inline-block; */
+    float: left;
+    margin: 12px 12px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.text{
+    float: left;
+    width: 200px;
+    margin: 12px 0px;
+    border: 1px solid black;
+    border-radius: 25px 0px 0 25px ;
+    border-right: none;
+    outline: none;
+    height: 25px;
+    background-color: lightsalmon;
+    color: li;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    color: darkblue;
+    background: radial-gradient(lightsalmon,crimson,orange);
+
+}
+.F{
+    background-image: url(../day5/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg);
+    width: 400px;
+    height: 500px;
+    border: 1px solid black;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    box-shadow: 2px 2px 0px 3px rgb(65, 190, 239), 3px 3px 3px 4px black, 4px 4px 4px 5px grey, 2px 2px 0px 3px rgb(65, 190, 239), 2px 2px 0px 3px rgb(65, 190, 239), 2px 2px 5px 9px rgb(231, 16, 16) ;
+
+}
+h1{
+    background-color: aqua;
+    border: 1px solid black;
+    margin-top: 40px;
+    text-align: center;
+    color: rebeccapurple;
+    text-shadow: 4px 4px 6px grey, 2px 2px 3px black ;
+    
+
+}
+.data{
+    text-align: center;
+    margin: 20px;
+    padding: 25px;
+    font-size: 20px;
+    color: crimson;
+
+}
+input{
+    border: none;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 25px;
+    background-color: aqua;
+    font-size: 20px;
+    padding-left: 30px;
+    color: darkslategrey;
+
+}
+.second{
+    clear: both;
+}
+.parent{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+}

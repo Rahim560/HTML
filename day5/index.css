@@ -1,0 +1,24 @@
+.mydiv{
+    width: 200px;
+    height: 200px;
+    border: 2px solid teal;
+background-image: url(./environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+}
+body{
+    background-image: url(./man-walking-dog.jpg);
+    /* background-size: cover; */
+background-repeat: no-repeat;
+background-size: 1000px;
+}
+div{
+    color: black;
+    background-image: url(./man-walking-dog.jpg);
+    background-size: cover;
+}
+#scroll{
+    background-image: none;
+    border: 10px ridge yellow;
+    overflow:auto;
+}

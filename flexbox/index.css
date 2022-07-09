@@ -1,0 +1,15 @@
+.common{
+    width: 100%;
+    height: 50px;
+    /* margin: 10px; */
+    background-color: darkseagreen;
+    border: 3px solid green;
+  align-items: center;
+
+}
+.parent{
+  background-color: rgb(220, 220, 200);
+  width: 100%;
+  height: 300px;
+  display: flex;
+}

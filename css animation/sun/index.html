@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .nav {
+        width: 600px;
+        height: 100px;
+        background-color: black;
+      }
+      .css {
+        width: 120px;
+        height: 100px;
+        background-color: aqua;
+        color: darkblue;
+        font-size: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        animation-name: king;
+        position: absolute;
+        animation-duration: 8s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+      }
+      .parent {
+        width: 600px;
+        height: 600px;
+        background-color: skyblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+      }
+      .sun {
+        font-size: 25px;
+        color: aliceblue;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background-color: orangered;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        position: absolute;
+      }
+      .earth {
+        width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 250px;
+        left: 0;
+        animation: king 15s linear infinite;
+      }
+      @keyframes king {
+        0% {
+          top: 250px;
+          left: 0px;
+        }
+        25% {
+          top: 400px;
+          left: 250px;
+        }
+        50% {
+          top: 0;
+          left: 0;
+        }
+        75% {
+          top: 0px;
+        }
+      }
+      @keyframes king {
+        0% {
+          top: 0;
+          left: 0;
+          transform: rotate(45deg);
+        }
+        25% {
+          top: 0;
+          left: 500px;
+          transform: rotate(45deg);
+        }
+        50% {
+          top: 0;
+          left: 250px;
+          transform: rotate(-180deg);
+        }
+        75% {
+          top: 0;
+          left: 125px;
+          transform: rotate(-360deg);
+        }
+        100% {
+          top: 0;
+          left: 0;
+          transform: rotate(0deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="sun">Sun</div>
+      <div class="earth">Earth</div>
+    </div>
+
+    <div class="nav">
+      <div class="css">CSS</div>
+    </div>
+  </body>
+</html>

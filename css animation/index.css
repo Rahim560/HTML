@@ -1,0 +1,68 @@
+.parent{
+    width: 600px;
+    height: 600px;
+    background-color:aqua ;
+    position: relative;
+}
+.child{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    animation:King 5s linear 1s infinite alternate;
+
+}
+.beta{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    animation:Bound 5s linear 1s infinite alternate;
+
+}
+.beti{
+    position:absolute;
+    width: 100px;
+    height: 100px;
+    background-color: lawngreen;
+    animation:Bound 5s linear 1s infinite alternate-reverse;
+}
+@keyframes King {
+    from{
+        background-color: grey;
+    }
+    to{
+        background-color: red;
+    }
+    
+}
+
+@keyframes Bound {
+    0%{
+        top: 0;
+        left: 0px;
+    }
+    25%{
+        top: 0;
+        left: 500px;
+        background-color: grey;
+    }
+    50%{
+        top: 500px;
+        left: 500px;
+        background-color: rgb(136, 21, 21);
+
+    }
+    75%{
+        top: 500px;
+        left: 0px;
+        background-color: rgb(54, 12, 160);
+
+    }
+    100%{
+        top: 0;
+        left: 0px;
+        background-color: rgb(198, 14, 106);
+
+    }
+}

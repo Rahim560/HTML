@@ -1,0 +1,19 @@
+.box{
+    border: 10px solid black;
+    outline: 20px ridge green;
+    padding: 40px;
+    margin: 50px;
+    display: inline-block;
+    box-sizing: border-box;
+
+    
+}
+.boxSizing{
+    border: 10px solid red;
+    background-color: crimson;
+    width: 200px;
+    height: 300px;
+    padding: 100px;
+    box-sizing: border-box;
+
+}

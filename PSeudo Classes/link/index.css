@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form{
+    width: 400px;
+    border: 4px solid black;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    background-color: lawngreen;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: yellow;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: crimson;
+    width: 200px;
+    display: inline-block;
+    
+}
+input{
+    width: 200px;
+}
